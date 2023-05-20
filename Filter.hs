@@ -4,9 +4,9 @@ import Data.Foldable (fold)
 
 
 
+-- Naive isForbidden
 isForbidden :: Char -> Bool
 isForbidden a = isLower a || isDigit a
-
 
 
 -- f :: (Char -> Bool) -> (Char -> Bool) -> Char -> Bool
